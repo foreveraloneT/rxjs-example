@@ -1,0 +1,22 @@
+{
+  "name": "rxjs-example",
+  "version": "1.0.0",
+  "description": "This repo contains some basic example about RxJS (code base on Node v8.x)",
+  "main": "eg1-simple-observable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foreveraloneT/rxjs-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foreveraloneT/rxjs-example/issues"
+  },
+  "homepage": "https://github.com/foreveraloneT/rxjs-example#readme",
+  "dependencies": {
+    "rxjs": "^6.2.1"
+  }
+}
