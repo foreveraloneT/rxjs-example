@@ -25,4 +25,3 @@ const increaseTime = () => ({
 })
 
 module.exports = { makeStore, increaseTime }
-
