@@ -1,9 +1,15 @@
 const { Observable } = require('rxjs')
+const {
+  makeStore,
+  increaseTime,
+} = require('./store')
+
+const store = makeStore()
 
 const timeerStream = Observable.create(observer => {
-  let count = 0
   const timerInterval = setInterval(() => {
-    observer.next(count++)
+    store.dispatch(increaseTime())
+    observer.next(store.getState().count)
   }, 1000)
 
   return () => {
